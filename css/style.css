@@ -127,7 +127,7 @@ h6 {
   height: 84px;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff;
+  background: #2e2e2e;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -686,7 +686,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio {
   background: #fff;
-  padding: 30px 0;
+  padding: 30px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
 }
 
 #portfolio .portfolio-overlay {
@@ -707,6 +711,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0;
   vertical-align: middle;
   text-align: center;
+  float: center;
+}
+
+.container-fluid {
+	margin-left: 350px;
+	margin-right: auto;
 }
 
 #portfolio .portfolio-item h2 {
@@ -1091,6 +1101,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #nav-menu-container {
     display: none;
+	
   }
 
   #mobile-nav-toggle {
